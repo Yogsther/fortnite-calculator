@@ -1,0 +1,15 @@
+lvl: 6  - xp: 850
+lvl: 14 - xp: 1650
+lvl: 17 - xp: 1950
+lvl: 19 - xp: 2150
+lvl: 20 - xp: 2300
+lvl: 21 - xp: 2450
+
+f(lvl) = ((lvl % 10) + 1) * 50
+
+totalXP = 700;
+for(let i = 1; i <= 100; i++){
+	add  = (Math.floor(i / 10) + 1) * 50
+	totalXP += add
+	console.log("Level: " + i + " xp jump: " + add + " total xp: " + totalXP)
+}
