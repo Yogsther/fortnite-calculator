@@ -4,15 +4,26 @@ var sheet = new Array();
 
 data = [
     [1, 100],
+    [5, 750],
     [6, 850],
     [8, 1050],
     [14, 1650],
     [17, 1950],
+    [18, 2050],
     [19, 2150],
     [20, 2300],
     [21, 2450],
     [23, 2750],
-    [35, 4550],
+    [24, 2900], /* Streamer */
+    [25, 3050], /* Streamer */
+    [28, 3500], /* Streamer */
+    [29, 3650], /* Streamer */
+    [31, 3950], /* unsure if this is accurate */
+    [33, 4250], /* Streamer */
+    [34, 4400], /* Prediction */ 
+    [35, 4550], /* Streamer */
+    [43, 5900], /* Streamer */
+    [44, 6100], /* Streamer */
 ]
 
 for(i = 0; i < data.length; i++){
